@@ -1,0 +1,31 @@
+1.k8s and ArgoCD.
+
+ArgoCD: Continuous Delivey designed  for kuberntes 
+--check new changed go to apply to the cluster.
+
+we app use case.
+
+1.develpers -> resposible for wroting app code 
+2.devops team ->responsible for building pipineline and deploying.
+
+two types of pipeline .
+
+1.Continous integration pipeline. -> is owned developers
+-developer pushinh code to github
+-the code being built by jenkins/githubaction
+-apply devsecops tools
+-pushing the image to  image repostory
+
+2. continous delivery pipeline ---owned DevOps
+- DevOps push the code with deploying specs
+-continous delivery tool that will then deploy the code 
+
+
+
+aargocd 
+
+1.default pod
+2.default service.
+3.GUI, GRAPGIC USER INTERAFEC         
+
+routed service from  10.101.45.112  to localhost 
