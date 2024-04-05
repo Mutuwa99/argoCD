@@ -29,3 +29,31 @@ aargocd
 3.GUI, GRAPGIC USER INTERAFEC         
 
 routed service from  10.101.45.112  to localhost 
+
+
+next meeting.
+
+.DNS
+.2 important records for dns 
+----A 
+---cname
+3.nginx ingresss controller for kubernetes
+---- how to setup a nginx ingres cotroller
+-------how to create a ingress resource to link a controll with internal services
+------how to point your dns record to your cluste/ingress 
+
+another meeting .
+
+TLS /SSL for k8s
+secrets
+microservices and APIs
+
+
+
+4 major deploying stategy
+
+ffthhf 
+
+sudo elastic-agent enroll --url=https://fleet.4-sure.net:443 --enrollment-token=bUxraHBJNEJLb2hkU21MZGtSVC06bmN6ZTRvNDNTY3E4VDFZSXliWEJRZw== 
+sudo systemctl enable elastic-agent 
+sudo systemctl start elastic-agent
