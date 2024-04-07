@@ -4,7 +4,7 @@ metadata:
   name: python-app
 spec:
   selector:
-    app: app
+    app: blue
   ports:
     - protocol: TCP
       port: 80
